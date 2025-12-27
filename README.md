@@ -1,20 +1,34 @@
-# Plant Disease Detection using CNN
+#  Plant Disease Detection using CNN
 
-## Overview
-CNN model to classify plant leaf images into classes: Healthy, Powdery, Rust.
+This project uses a Convolutional Neural Network (CNN) to detect plant leaf diseases and classify images into:
 
-## Dataset
-Link: <put dataset link>
+- Healthy
+- Powdery
+- Rust
 
-## Model
-- CNN with convolution + pooling
-- Softmax output
-- Trained in Keras/TensorFlow
+The goal is to help identify plant diseases early so farmers and researchers can take quick action.
 
-## Results
-Test Accuracy: 90.67%
+---
 
-## How to run
-1. Open notebook
-2. Upload dataset
-3. Run cells in order
+##  Project Motivation
+
+Plant diseases reduce crop yield and directly affect farmers.  
+Manual inspection is slow and requires expertise.
+
+This project automates disease detection using deep learning.
+
+---
+
+##  Dataset
+
+Images were divided into Train / Validation / Test sets.
+
+| Class     | Train | Validation | Test |
+|-----------|-------|-----------|------|
+| Healthy   | 458   | 45        | 45   |
+| Powdery   | 430   | 43        | 43   |
+| Rust      | 434   | 43        | 43   |
+
+
+
+
